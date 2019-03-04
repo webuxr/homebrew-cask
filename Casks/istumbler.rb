@@ -7,7 +7,7 @@ cask 'istumbler' do
     sha256 '35796f9a119814527f98b85a0b8fbe0352895c3d8f21e9fd5af2cceb6d0277cb'
   end
 
-  url "https://istumbler.net/downloads/istumbler-#{version}.dmg"
+  url 'https://istumbler.net/downloads/istumbler-#{version}.dmg'
   appcast 'https://istumbler.net/feeds/appcast.rss'
   name 'iStumbler'
   homepage 'https://istumbler.net/'
